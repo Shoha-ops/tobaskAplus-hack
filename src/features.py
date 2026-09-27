@@ -1,7 +1,7 @@
-"""Агрегация транзакций (уровень транзакции) -> признаки (уровень алерта).
+"""Transaction aggregation (transaction level) -> features (alert level).
 
-Baseline-набор. Все признаки считаются ТОЛЬКО внутри одного signal_id,
-никаких глобальных статистик по датасету -> лика между train/test нет.
+Baseline feature set. All features are computed STRICTLY within each signal_id;
+no global dataset-wide target statistics -> zero train/test leakage.
 """
 import numpy as np
 import pandas as pd
@@ -12,7 +12,7 @@ TURLAR = ["karta", "bank_otkazmasi", "naqd", "xalqaro"]
 
 
 def _amount_stats(g, prefix):
-    """Статистики miqdor_indeksi по сгруппированному объекту."""
+    """Statistics of miqdor_indeksi across grouped transactions."""
     out = g["miqdor_indeksi"].agg(
         ["count", "mean", "std", "min", "max", "median", "sum", "skew"]
     )
@@ -31,20 +31,20 @@ def build_features(tx: pd.DataFrame, signals: pd.DataFrame) -> pd.DataFrame:
 
     g = tx.groupby(ID, observed=True)
 
-    # --- общие статистики сумм
+    # --- overall amount statistics
     feats = _amount_stats(g, "amt")
 
-    # --- доли по направлению и типу
+    # --- direction and type ratios
     ratios = g[["is_out"] + [f"is_{t}" for t in TURLAR]].mean()
     ratios.columns = [f"r_{c[3:]}" for c in ratios.columns]
     feats = feats.join(ratios)
 
-    # сырые счётчики типов (для xalqaro сырое количество работало лучше доли)
+    # raw type counts (for xalqaro, raw count performed better than ratio)
     counts = g[[f"is_{t}" for t in TURLAR]].sum()
     counts.columns = [f"n_{c[3:]}" for c in counts.columns]
     feats = feats.join(counts)
 
-    # --- статистики отдельно по приходу и расходу
+    # --- separate incoming and outgoing statistics
     for flag, prefix in [(0, "in"), (1, "out")]:
         sub = tx[tx["is_out"] == flag]
         s = _amount_stats(sub.groupby(ID, observed=True), prefix)
@@ -54,7 +54,7 @@ def build_features(tx: pd.DataFrame, signals: pd.DataFrame) -> pd.DataFrame:
     feats["bal_ratio"] = feats["in_sum"].fillna(0) / (feats["out_sum"].abs().fillna(0) + 1e-6)
     feats["out_in_cnt_ratio"] = feats["out_count"].fillna(0) / (feats["in_count"].fillna(0) + 1e-6)
 
-    # --- активность во времени
+    # --- temporal activity features
     act = g.agg(
         n_days=("day", "nunique"),
         t_min=("tranzaksiya_vaqti", "min"),
@@ -65,7 +65,7 @@ def build_features(tx: pd.DataFrame, signals: pd.DataFrame) -> pd.DataFrame:
     act["density"] = act["n_days"] / act["span_days"].clip(lower=1)
     feats = feats.join(act[["n_days", "span_days", "tx_per_day", "density"]])
 
-    # --- признаки самого алерта
+    # --- alert-level features
     s = signals.set_index(ID)
     feats = feats.join(s[[DATE]])
     feats["sig_month"] = feats[DATE].dt.month
@@ -74,6 +74,6 @@ def build_features(tx: pd.DataFrame, signals: pd.DataFrame) -> pd.DataFrame:
     feats["sig_days_since_start"] = (feats[DATE] - pd.Timestamp("2025-01-01")).dt.days
     feats = feats.drop(columns=[DATE])
 
-    # порядок строк = порядок в signals
+    # row order matches signals order
     feats = feats.reindex(s.index)
     return feats.astype(np.float32)

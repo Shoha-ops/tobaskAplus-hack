@@ -1,4 +1,4 @@
-"""Загрузка данных с ужатыми типами (важно: на машине пользователя всего 3 ГБ RAM)."""
+"""Data loading with memory-efficient types (essential: constrained to ~3 GB RAM)."""
 import numpy as np
 import pandas as pd
 from .config import DATA, ID, DATE, TARGET
