@@ -19,45 +19,6 @@
   let lastStep = 0;                                 // where "back" from the team page returns
   const cur = function () { return Number(root.getAttribute("data-tbx-sec") || "0"); };
 
-  function killStreamlitBadges() {
-    const sels = [
-      '[class*="viewerBadge"]',
-      '[class*="viewer-badge"]',
-      '[class*="StatusWidget"]',
-      '[data-testid="manage-app-button"]',
-      'a[href*="streamlit.io/cloud"]',
-      'a[href*="streamlit.io"]',
-      '.viewerBadge_container__1QSob'
-    ];
-    for (const s of sels) {
-      for (const el of doc.querySelectorAll(s)) el.remove();
-    }
-    for (const d of doc.querySelectorAll("div, a, span")) {
-      if (d.textContent && d.textContent.indexOf("Hosted with Streamlit") !== -1) {
-        const badge = d.closest("a") || d.closest('[class*="viewerBadge"]') || d;
-        badge.style.display = "none";
-        badge.remove();
-      }
-    }
-    try {
-      if (win.parent && win.parent.document) {
-        const pdoc = win.parent.document;
-        for (const s of sels) {
-          for (const el of pdoc.querySelectorAll(s)) el.remove();
-        }
-        for (const d of pdoc.querySelectorAll("div, a, span")) {
-          if (d.textContent && d.textContent.indexOf("Hosted with Streamlit") !== -1) {
-            const badge = d.closest("a") || d.closest('[class*="viewerBadge"]') || d;
-            badge.style.display = "none";
-            badge.remove();
-          }
-        }
-      }
-    } catch (err) {}
-  }
-  killStreamlitBadges();
-  setInterval(killStreamlitBadges, 400);
-
   function nodeOf(v) {
     const input = doc.getElementById("tbx-sec-" + v);
     return input ? input.closest("label") : null;
