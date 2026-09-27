@@ -79,8 +79,6 @@ Systematic experimentation confirmed that temporal dynamics and sequence order i
 
 ---
 
----
-
 ## Repository Structure
 
 ```
@@ -116,3 +114,42 @@ Systematic experimentation confirmed that temporal dynamics and sequence order i
 
 ---
 
+## Installation & Setup
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Shoha-ops/tobaskAplus-hack.git
+cd tobaskAplus-hack
+```
+
+### 2. Environment Setup (Recommended)
+Python 3.11+ is recommended:
+```bash
+python -m venv venv
+# On Windows:
+.\venv\Scripts\activate
+# On Linux / macOS:
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Execution & Verification
+
+- **Train Model & Reproduce Submission:**
+  Ensure the dataset is available in `data/` (or project root):
+  ```bash
+  python train_final.py
+  ```
+  *Produces [`submissions/team_3B832E89.csv`](file:///d:/hack/submissions/team_3B832E89.csv) with MD5 `a0d1cf0afc9be6c039ad19590cfd26c9`.*
+
+- **Execute Solution Notebook:**
+  Open [`notebooks/solution.ipynb`](file:///d:/hack/notebooks/solution.ipynb) in Jupyter / VS Code and click **Run All** (~7 min on CPU).
+
+- **Launch Interactive EDA Site Locally:**
+  ```bash
+  streamlit run eda_site/app.py
+  ```
