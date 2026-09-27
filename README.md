@@ -1,7 +1,6 @@
 # AI Financial Alert Risk Scoring — Fintech Track
 
 > **Team:** tobaskA+  
-> **Team ID:** `3B832E89`  
 > **Metric:** ROC-AUC (Single final submission — evaluated with honest out-of-fold validation and zero test leakage)
 
 ---
