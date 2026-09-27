@@ -1,0 +1,16 @@
+# Python 3.11+ ; exact versions used for the final submission (md5 a0d1cf0afc9be6c039ad19590cfd26c9)
+pandas==3.0.2
+numpy==2.4.4
+pyarrow==25.0.1
+scikit-learn==1.8.0
+scipy==1.17.1
+lightgbm==4.7.0
+catboost==1.2.10
+matplotlib==3.10.9
+# notebook execution
+nbformat==5.11.1
+nbconvert==7.17.1
+ipykernel
+# EDA website: see eda_site/requirements.txt
+streamlit==1.64.0
+plotly==7.1.0

@@ -1,0 +1,641 @@
+cross,x,density
+Bank transfer · incoming,-2.9375,0.032783294678092455
+Bank transfer · incoming,-2.8125,0.011455770712494965
+Bank transfer · incoming,-2.6875,0.01487411950140606
+Bank transfer · incoming,-2.5625,0.019289812616601284
+Bank transfer · incoming,-2.4375,0.02555157052397733
+Bank transfer · incoming,-2.3125,0.032638581971925734
+Bank transfer · incoming,-2.1875,0.0401792873094779
+Bank transfer · incoming,-2.0625,0.050097974413229086
+Bank transfer · incoming,-1.9375,0.062312509044544134
+Bank transfer · incoming,-1.8125,0.0771357835410808
+Bank transfer · incoming,-1.6875,0.09425490556518135
+Bank transfer · incoming,-1.5625,0.11275075387497605
+Bank transfer · incoming,-1.4375,0.13750444893792607
+Bank transfer · incoming,-1.3125,0.1611591096648532
+Bank transfer · incoming,-1.1875,0.18689059328298374
+Bank transfer · incoming,-1.0625,0.21666621036534092
+Bank transfer · incoming,-0.9375,0.2452567477188193
+Bank transfer · incoming,-0.8125,0.2742188447232663
+Bank transfer · incoming,-0.6875,0.3028211155394068
+Bank transfer · incoming,-0.5625,0.32762565560722623
+Bank transfer · incoming,-0.4375,0.34867157646893177
+Bank transfer · incoming,-0.3125,0.36079224339894944
+Bank transfer · incoming,-0.1875,0.3709416886017233
+Bank transfer · incoming,-0.0625,0.37462208472342273
+Bank transfer · incoming,0.0625,0.3734800276909719
+Bank transfer · incoming,0.1875,0.3676680525189789
+Bank transfer · incoming,0.3125,0.3542332377707985
+Bank transfer · incoming,0.4375,0.3368677130307925
+Bank transfer · incoming,0.5625,0.3183523089498942
+Bank transfer · incoming,0.6875,0.2969191838203372
+Bank transfer · incoming,0.8125,0.2722398006875809
+Bank transfer · incoming,0.9375,0.24793588836001393
+Bank transfer · incoming,1.0625,0.22209489242370317
+Bank transfer · incoming,1.1875,0.19747808775847842
+Bank transfer · incoming,1.3125,0.17459783556725425
+Bank transfer · incoming,1.4375,0.15361840432730103
+Bank transfer · incoming,1.5625,0.13166900684060873
+Bank transfer · incoming,1.6875,0.1127429315665346
+Bank transfer · incoming,1.8125,0.09634346191904693
+Bank transfer · incoming,1.9375,0.0816883670540013
+Bank transfer · incoming,2.0625,0.06923525201522221
+Bank transfer · incoming,2.1875,0.05733360972156493
+Bank transfer · incoming,2.3125,0.048095463452219385
+Bank transfer · incoming,2.4375,0.039459634932865036
+Bank transfer · incoming,2.5625,0.032916273921597
+Bank transfer · incoming,2.6875,0.02678749525772551
+Bank transfer · incoming,2.8125,0.021702994770786806
+Bank transfer · incoming,2.9375,0.017631483227015125
+Bank transfer · incoming,3.0625,0.01385721940401832
+Bank transfer · incoming,3.1875,0.011537904951130128
+Bank transfer · incoming,3.3125,0.00909343356317883
+Bank transfer · incoming,3.4375,0.006942298741781687
+Bank transfer · incoming,3.5625,0.0059527767239390015
+Bank transfer · incoming,3.6875,0.0046660069853214385
+Bank transfer · incoming,3.8125,0.0034652826395597603
+Bank transfer · incoming,3.9375,0.0026830517954153452
+Bank transfer · incoming,4.0625,0.00222153559737014
+Bank transfer · incoming,4.1875,0.0019047321054916516
+Bank transfer · incoming,4.3125,0.0013845485941356153
+Bank transfer · incoming,4.4375,0.0010716562564778492
+Bank transfer · incoming,4.5625,0.0008839208538831895
+Bank transfer · incoming,4.6875,0.0006375181379776986
+Bank transfer · incoming,4.8125,0.00045760504382448303
+Bank transfer · incoming,4.9375,0.0004654273522659272
+Bank transfer · incoming,5.0625,0.0002424915616847688
+Bank transfer · incoming,5.1875,0.0002112023279189922
+Bank transfer · incoming,5.3125,0.00016817963149104933
+Bank transfer · incoming,5.4375,0.00013689039772527272
+Bank transfer · incoming,5.5625,0.00011342347240094024
+Bank transfer · incoming,5.6875,7.822308441444154e-05
+Bank transfer · incoming,5.8125,7.431193019371947e-05
+Bank transfer · incoming,5.9375,3.52003879864987e-05
+Bank transfer · incoming,6.0625,3.911154220722077e-05
+Bank transfer · incoming,6.1875,1.1733462662166233e-05
+Bank transfer · incoming,6.3125,3.52003879864987e-05
+Bank transfer · incoming,6.4375,1.9555771103610385e-05
+Bank transfer · incoming,6.5625,3.911154220722077e-06
+Bank transfer · incoming,6.6875,1.9555771103610385e-05
+Bank transfer · incoming,6.8125,0.0
+Bank transfer · incoming,6.9375,0.0
+Bank transfer · outgoing,-2.9375,0.0
+Bank transfer · outgoing,-2.8125,0.030736477007564274
+Bank transfer · outgoing,-2.6875,0.009564966055931929
+Bank transfer · outgoing,-2.5625,0.012689371241654975
+Bank transfer · outgoing,-2.4375,0.01674997003898457
+Bank transfer · outgoing,-2.3125,0.02067521554306984
+Bank transfer · outgoing,-2.1875,0.027262409147626735
+Bank transfer · outgoing,-2.0625,0.03392855883990948
+Bank transfer · outgoing,-1.9375,0.04341456880811556
+Bank transfer · outgoing,-1.8125,0.05411875841552051
+Bank transfer · outgoing,-1.6875,0.06819550091292977
+Bank transfer · outgoing,-1.5625,0.08355809969616006
+Bank transfer · outgoing,-1.4375,0.09975537712106365
+Bank transfer · outgoing,-1.3125,0.12212250882968749
+Bank transfer · outgoing,-1.1875,0.14377903574877865
+Bank transfer · outgoing,-1.0625,0.17127831315958295
+Bank transfer · outgoing,-0.9375,0.19691648278827784
+Bank transfer · outgoing,-0.8125,0.22523915939965175
+Bank transfer · outgoing,-0.6875,0.25122699170256113
+Bank transfer · outgoing,-0.5625,0.2771358679177447
+Bank transfer · outgoing,-0.4375,0.3019055205814552
+Bank transfer · outgoing,-0.3125,0.323832754087035
+Bank transfer · outgoing,-0.1875,0.3438424826049869
+Bank transfer · outgoing,-0.0625,0.35648673608222714
+Bank transfer · outgoing,0.0625,0.3647996841756491
+Bank transfer · outgoing,0.1875,0.3645289775891605
+Bank transfer · outgoing,0.3125,0.36022023108754964
+Bank transfer · outgoing,0.4375,0.3497867480666333
+Bank transfer · outgoing,0.5625,0.3398946782186943
+Bank transfer · outgoing,0.6875,0.32528780198941143
+Bank transfer · outgoing,0.8125,0.30738732895785015
+Bank transfer · outgoing,0.9375,0.2831478100260132
+Bank transfer · outgoing,1.0625,0.26270946274612095
+Bank transfer · outgoing,1.1875,0.2410190975037187
+Bank transfer · outgoing,1.3125,0.215189177376261
+Bank transfer · outgoing,1.4375,0.1937695187203474
+Bank transfer · outgoing,1.5625,0.17265440497423354
+Bank transfer · outgoing,1.6875,0.14937363853621052
+Bank transfer · outgoing,1.8125,0.13194690203100437
+Bank transfer · outgoing,1.9375,0.11594137510486355
+Bank transfer · outgoing,2.0625,0.09994712761982644
+Bank transfer · outgoing,2.1875,0.08458452883659615
+Bank transfer · outgoing,2.3125,0.07354195599608039
+Bank transfer · outgoing,2.4375,0.060266053817033365
+Bank transfer · outgoing,2.5625,0.051750075783744916
+Bank transfer · outgoing,2.6875,0.0425009340787164
+Bank transfer · outgoing,2.8125,0.035304650654560066
+Bank transfer · outgoing,2.9375,0.029552135691676477
+Bank transfer · outgoing,3.0625,0.024972682603576993
+Bank transfer · outgoing,3.1875,0.019502153668285737
+Bank transfer · outgoing,3.3125,0.016490542893599622
+Bank transfer · outgoing,3.4375,0.013603005971054134
+Bank transfer · outgoing,3.5625,0.011065131722723139
+Bank transfer · outgoing,3.6875,0.008809243501984476
+Bank transfer · outgoing,3.8125,0.00732035727629696
+Bank transfer · outgoing,3.9375,0.0060570598726833085
+Bank transfer · outgoing,4.0625,0.004793762469069657
+Bank transfer · outgoing,4.1875,0.003395111772211687
+Bank transfer · outgoing,4.3125,0.003135684626826741
+Bank transfer · outgoing,4.4375,0.002097976045286956
+Bank transfer · outgoing,4.5625,0.0017595928121761568
+Bank transfer · outgoing,4.6875,0.0015340039901022904
+Bank transfer · outgoing,4.8125,0.0013084151680284241
+Bank transfer · outgoing,4.9375,0.001116664669265638
+Bank transfer · outgoing,5.0625,0.0006542075840142121
+Bank transfer · outgoing,5.1875,0.00048501596745881243
+Bank transfer · outgoing,5.3125,0.0005075748496661991
+Bank transfer · outgoing,5.4375,0.0004511776441477325
+Bank transfer · outgoing,5.5625,0.0003045449097997194
+Bank transfer · outgoing,5.6875,0.0002707065864886395
+Bank transfer · outgoing,5.8125,0.000180471057659093
+Bank transfer · outgoing,5.9375,0.00016919161655539968
+Bank transfer · outgoing,6.0625,0.00020302993986647962
+Bank transfer · outgoing,6.1875,7.895608772585319e-05
+Bank transfer · outgoing,6.3125,4.511776441477325e-05
+Bank transfer · outgoing,6.4375,4.511776441477325e-05
+Bank transfer · outgoing,6.5625,4.511776441477325e-05
+Bank transfer · outgoing,6.6875,7.895608772585319e-05
+Bank transfer · outgoing,6.8125,0.0
+Bank transfer · outgoing,6.9375,0.0
+Card · incoming,-2.9375,0.0
+Card · incoming,-2.8125,0.0
+Card · incoming,-2.6875,0.0
+Card · incoming,-2.5625,0.0
+Card · incoming,-2.4375,0.0
+Card · incoming,-2.3125,0.0
+Card · incoming,-2.1875,0.026937232252805383
+Card · incoming,-2.0625,0.05220112041902978
+Card · incoming,-1.9375,0.04824670031392546
+Card · incoming,-1.8125,0.07580553965693672
+Card · incoming,-1.6875,0.1138206982673396
+Card · incoming,-1.5625,0.16629932185163987
+Card · incoming,-1.4375,0.23236450040758277
+Card · incoming,-1.3125,0.31096727197044594
+Card · incoming,-1.1875,0.4017135820455452
+Card · incoming,-1.0625,0.4870069549230796
+Card · incoming,-0.9375,0.5618995091662764
+Card · incoming,-0.8125,0.6151412664550705
+Card · incoming,-0.6875,0.6431385607992092
+Card · incoming,-0.5625,0.6384709575593597
+Card · incoming,-0.4375,0.6110314445774148
+Card · incoming,-0.3125,0.5553171340860606
+Card · incoming,-0.1875,0.4890327280295541
+Card · incoming,-0.0625,0.42206011412317673
+Card · incoming,0.0625,0.352054390620393
+Card · incoming,0.1875,0.284401893959103
+Card · incoming,0.3125,0.22625388070832683
+Card · incoming,0.4375,0.17601193263610662
+Card · incoming,0.5625,0.134910938827896
+Card · incoming,0.6875,0.10169103491336698
+Card · incoming,0.8125,0.07571118858074474
+Card · incoming,0.9375,0.05501500251487244
+Card · incoming,1.0625,0.04109821877655792
+Card · incoming,1.1875,0.02946251105676674
+Card · incoming,1.3125,0.02096536413618468
+Card · incoming,1.4375,0.014768718455694885
+Card · incoming,1.5625,0.010561770470194425
+Card · incoming,1.6875,0.0076230119499800545
+Card · incoming,1.8125,0.00551676292557712
+Card · incoming,1.9375,0.0036297414017378636
+Card · incoming,2.0625,0.0025669042787519296
+Card · incoming,2.1875,0.0018675963022703227
+Card · incoming,2.3125,0.0013236900983401843
+Card · incoming,2.4375,0.0010267617115007719
+Card · incoming,2.5625,0.0006021818686369391
+Card · incoming,2.6875,0.0004828555075706332
+Card · incoming,2.8125,0.000302478450144822
+Card · incoming,2.9375,0.00021090240560556393
+Card · incoming,3.0625,0.00016095183585687774
+Card · incoming,3.1875,0.00010267617115007717
+Card · incoming,3.3125,4.717553809598141e-05
+Card · incoming,3.4375,6.937579131761971e-05
+Card · incoming,3.5625,2.7750316527047886e-05
+Card · incoming,3.6875,3.052534817975267e-05
+Card · incoming,3.8125,1.3875158263523943e-05
+Card · incoming,3.9375,1.3875158263523943e-05
+Card · incoming,4.0625,1.1100126610819155e-05
+Card · incoming,4.1875,8.325094958114365e-06
+Card · incoming,4.3125,0.0
+Card · incoming,4.4375,0.0
+Card · incoming,4.5625,0.0
+Card · incoming,4.6875,0.0
+Card · incoming,4.8125,0.0
+Card · incoming,4.9375,0.0
+Card · incoming,5.0625,0.0
+Card · incoming,5.1875,0.0
+Card · incoming,5.3125,0.0
+Card · incoming,5.4375,0.0
+Card · incoming,5.5625,0.0
+Card · incoming,5.6875,0.0
+Card · incoming,5.8125,0.0
+Card · incoming,5.9375,0.0
+Card · incoming,6.0625,0.0
+Card · incoming,6.1875,0.0
+Card · incoming,6.3125,0.0
+Card · incoming,6.4375,0.0
+Card · incoming,6.5625,0.0
+Card · incoming,6.6875,0.0
+Card · incoming,6.8125,0.0
+Card · incoming,6.9375,0.0
+Card · outgoing,-2.9375,0.0
+Card · outgoing,-2.8125,0.0
+Card · outgoing,-2.6875,0.0
+Card · outgoing,-2.5625,0.0
+Card · outgoing,-2.4375,0.0
+Card · outgoing,-2.3125,0.0023380410001975003
+Card · outgoing,-2.1875,0.019462364732112786
+Card · outgoing,-2.0625,0.03768264518287065
+Card · outgoing,-1.9375,0.04139063208162138
+Card · outgoing,-1.8125,0.04433144927718229
+Card · outgoing,-1.6875,0.061729762188808227
+Card · outgoing,-1.5625,0.08394115169068449
+Card · outgoing,-1.4375,0.11582435923634649
+Card · outgoing,-1.3125,0.15131509098153198
+Card · outgoing,-1.1875,0.19359162141088446
+Card · outgoing,-1.0625,0.24535731043088224
+Card · outgoing,-0.9375,0.29848381237677624
+Card · outgoing,-0.8125,0.3490713479240182
+Card · outgoing,-0.6875,0.40357692874112244
+Card · outgoing,-0.5625,0.4469037510260324
+Card · outgoing,-0.4375,0.481609047122714
+Card · outgoing,-0.3125,0.49971973190158764
+Card · outgoing,-0.1875,0.5112912082580339
+Card · outgoing,-0.0625,0.5014549967064217
+Card · outgoing,0.0625,0.47667724188792243
+Card · outgoing,0.1875,0.44545160837356595
+Card · outgoing,0.3125,0.40539439029986973
+Card · outgoing,0.4375,0.362579014483753
+Card · outgoing,0.5625,0.3161926463587409
+Card · outgoing,0.6875,0.27585230613267697
+Card · outgoing,0.8125,0.23163958550003597
+Card · outgoing,0.9375,0.19287011657097974
+Card · outgoing,1.0625,0.16325188624425907
+Card · outgoing,1.1875,0.13075676953057663
+Card · outgoing,1.3125,0.10838098652087398
+Card · outgoing,1.4375,0.08638878836276624
+Card · outgoing,1.5625,0.06962978353713181
+Card · outgoing,1.6875,0.054039799211596136
+Card · outgoing,1.8125,0.04290670554268694
+Card · outgoing,1.9375,0.0332805523621863
+Card · outgoing,2.0625,0.0270335990647836
+Card · outgoing,2.1875,0.020202135517331528
+Card · outgoing,2.3125,0.015434723790366311
+Card · outgoing,2.4375,0.012822693610458166
+Card · outgoing,2.5625,0.009817945606298098
+Card · outgoing,2.6875,0.0074707716334435756
+Card · outgoing,2.8125,0.005077932797303946
+Card · outgoing,2.9375,0.0038997793245481747
+Card · outgoing,3.0625,0.003297003129184757
+Card · outgoing,3.1875,0.002685093961164317
+Card · outgoing,3.3125,0.0018722593946894047
+Card · outgoing,3.4375,0.0014612756251234378
+Card · outgoing,3.5625,0.0011690205000987502
+Card · outgoing,3.6875,0.0007580367305327834
+Card · outgoing,3.8125,0.0006393080859915041
+Card · outgoing,3.9375,0.0005297124141072462
+Card · outgoing,4.0625,0.0002648562070536231
+Card · outgoing,4.1875,0.0011964194180698147
+Card · outgoing,4.3125,0.0
+Card · outgoing,4.4375,0.0
+Card · outgoing,4.5625,0.0
+Card · outgoing,4.6875,0.0
+Card · outgoing,4.8125,0.0
+Card · outgoing,4.9375,0.0
+Card · outgoing,5.0625,0.0
+Card · outgoing,5.1875,0.0
+Card · outgoing,5.3125,0.0
+Card · outgoing,5.4375,0.0
+Card · outgoing,5.5625,0.0
+Card · outgoing,5.6875,0.0
+Card · outgoing,5.8125,0.0
+Card · outgoing,5.9375,0.0
+Card · outgoing,6.0625,0.0
+Card · outgoing,6.1875,0.0
+Card · outgoing,6.3125,0.0
+Card · outgoing,6.4375,0.0
+Card · outgoing,6.5625,0.0
+Card · outgoing,6.6875,0.0
+Card · outgoing,6.8125,0.0
+Card · outgoing,6.9375,0.0
+Cash · incoming,-2.9375,0.0
+Cash · incoming,-2.8125,0.0
+Cash · incoming,-2.6875,0.0
+Cash · incoming,-2.5625,0.0
+Cash · incoming,-2.4375,0.0
+Cash · incoming,-2.3125,0.0
+Cash · incoming,-2.1875,0.0
+Cash · incoming,-2.0625,0.0
+Cash · incoming,-1.9375,0.0
+Cash · incoming,-1.8125,0.0
+Cash · incoming,-1.6875,0.0
+Cash · incoming,-1.5625,0.0
+Cash · incoming,-1.4375,0.0
+Cash · incoming,-1.3125,0.0008138327633511957
+Cash · incoming,-1.1875,0.03288841814248656
+Cash · incoming,-1.0625,0.0618752262724365
+Cash · incoming,-0.9375,0.10163335038791697
+Cash · incoming,-0.8125,0.12695791108278653
+Cash · incoming,-0.6875,0.18126927990760605
+Cash · incoming,-0.5625,0.25202485780366884
+Cash · incoming,-0.4375,0.32395331232926716
+Cash · incoming,-0.3125,0.391525367945162
+Cash · incoming,-0.1875,0.4454776929037972
+Cash · incoming,-0.0625,0.48186080467714476
+Cash · incoming,0.0625,0.5029725840087846
+Cash · incoming,0.1875,0.5090523934761729
+Cash · incoming,0.3125,0.5032119465862408
+Cash · incoming,0.4375,0.4948342563752727
+Cash · incoming,0.5625,0.4762597203646689
+Cash · incoming,0.6875,0.4570628416526789
+Cash · incoming,0.8125,0.42393506093273614
+Cash · incoming,0.9375,0.38233384497084266
+Cash · incoming,1.0625,0.34295870097929215
+Cash · incoming,1.1875,0.3022431265539867
+Cash · incoming,1.3125,0.25468178241343303
+Cash · incoming,1.4375,0.21358322786419764
+Cash · incoming,1.5625,0.1741602113571559
+Cash · incoming,1.6875,0.13739411945987834
+Cash · incoming,1.8125,0.11005891311437642
+Cash · incoming,1.9375,0.08370509333644505
+Cash · incoming,2.0625,0.06429278830474447
+Cash · incoming,2.1875,0.04890177457430862
+Cash · incoming,2.3125,0.035760769071961365
+Cash · incoming,2.4375,0.02439104664279025
+Cash · incoming,2.5625,0.01771283073176132
+Cash · incoming,2.6875,0.012398981512232924
+Cash · incoming,2.8125,0.009191522974319388
+Cash · incoming,2.9375,0.006055873209642721
+Cash · incoming,3.0625,0.004523952713922823
+Cash · incoming,3.1875,0.0025611795787817042
+Cash · incoming,3.3125,0.0019388368773954959
+Cash · incoming,3.4375,0.0010771315985530533
+Cash · incoming,3.5625,0.0009574503098249362
+Cash · incoming,3.6875,0.0005744701858949617
+Cash · incoming,3.8125,0.0004308526394212213
+Cash · incoming,3.9375,0.00014361754647374044
+Cash · incoming,4.0625,0.00019149006196498723
+Cash · incoming,4.1875,4.787251549124681e-05
+Cash · incoming,4.3125,0.0
+Cash · incoming,4.4375,9.574503098249361e-05
+Cash · incoming,4.5625,2.3936257745623404e-05
+Cash · incoming,4.6875,0.0
+Cash · incoming,4.8125,0.0
+Cash · incoming,4.9375,0.0
+Cash · incoming,5.0625,0.0
+Cash · incoming,5.1875,0.0
+Cash · incoming,5.3125,0.0
+Cash · incoming,5.4375,0.0
+Cash · incoming,5.5625,0.0
+Cash · incoming,5.6875,0.0
+Cash · incoming,5.8125,0.0
+Cash · incoming,5.9375,0.0
+Cash · incoming,6.0625,0.0
+Cash · incoming,6.1875,0.0
+Cash · incoming,6.3125,0.0
+Cash · incoming,6.4375,0.0
+Cash · incoming,6.5625,0.0
+Cash · incoming,6.6875,0.0
+Cash · incoming,6.8125,0.0
+Cash · incoming,6.9375,0.0
+Cash · outgoing,-2.9375,0.0
+Cash · outgoing,-2.8125,0.0
+Cash · outgoing,-2.6875,0.0
+Cash · outgoing,-2.5625,0.0
+Cash · outgoing,-2.4375,0.0
+Cash · outgoing,-2.3125,0.0
+Cash · outgoing,-2.1875,0.0
+Cash · outgoing,-2.0625,0.0
+Cash · outgoing,-1.9375,0.0
+Cash · outgoing,-1.8125,0.0
+Cash · outgoing,-1.6875,0.0
+Cash · outgoing,-1.5625,0.0
+Cash · outgoing,-1.4375,0.0
+Cash · outgoing,-1.3125,0.008952601156069363
+Cash · outgoing,-1.1875,0.02959537572254335
+Cash · outgoing,-1.0625,0.049202312138728325
+Cash · outgoing,-0.9375,0.06806936416184971
+Cash · outgoing,-0.8125,0.08183121387283238
+Cash · outgoing,-0.6875,0.11446011560693642
+Cash · outgoing,-0.5625,0.15064046242774567
+Cash · outgoing,-0.4375,0.19281387283236995
+Cash · outgoing,-0.3125,0.23972254335260115
+Cash · outgoing,-0.1875,0.27272138728323697
+Cash · outgoing,-0.0625,0.3139329479768786
+Cash · outgoing,0.0625,0.3541826589595376
+Cash · outgoing,0.1875,0.3869595375722543
+Cash · outgoing,0.3125,0.4147791907514451
+Cash · outgoing,0.4375,0.42824508670520234
+Cash · outgoing,0.5625,0.4363098265895954
+Cash · outgoing,0.6875,0.4545849710982659
+Cash · outgoing,0.8125,0.43971329479768784
+Cash · outgoing,0.9375,0.436235838150289
+Cash · outgoing,1.0625,0.4121156069364162
+Cash · outgoing,1.1875,0.3871815028901734
+Cash · outgoing,1.3125,0.3666867052023121
+Cash · outgoing,1.4375,0.32880462427745666
+Cash · outgoing,1.5625,0.2921063583815029
+Cash · outgoing,1.6875,0.25614797687861274
+Cash · outgoing,1.8125,0.21545433526011562
+Cash · outgoing,1.9375,0.17816416184971098
+Cash · outgoing,2.0625,0.1509364161849711
+Cash · outgoing,2.1875,0.12644624277456648
+Cash · outgoing,2.3125,0.09759075144508671
+Cash · outgoing,2.4375,0.07850173410404625
+Cash · outgoing,2.5625,0.058376878612716766
+Cash · outgoing,2.6875,0.04683468208092485
+Cash · outgoing,2.8125,0.035440462427745664
+Cash · outgoing,2.9375,0.026191907514450868
+Cash · outgoing,3.0625,0.01968092485549133
+Cash · outgoing,3.1875,0.013095953757225434
+Cash · outgoing,3.3125,0.010136416184971098
+Cash · outgoing,3.4375,0.008508670520231213
+Cash · outgoing,3.5625,0.0048092485549132945
+Cash · outgoing,3.6875,0.004291329479768786
+Cash · outgoing,3.8125,0.0029595375722543354
+Cash · outgoing,3.9375,0.0022196531791907515
+Cash · outgoing,4.0625,0.0013317919075144509
+Cash · outgoing,4.1875,0.0011098265895953757
+Cash · outgoing,4.3125,0.0006658959537572254
+Cash · outgoing,4.4375,0.0004439306358381503
+Cash · outgoing,4.5625,0.00022196531791907515
+Cash · outgoing,4.6875,0.00014797687861271676
+Cash · outgoing,4.8125,0.0004439306358381503
+Cash · outgoing,4.9375,0.0
+Cash · outgoing,5.0625,0.0
+Cash · outgoing,5.1875,0.0
+Cash · outgoing,5.3125,0.0
+Cash · outgoing,5.4375,0.0
+Cash · outgoing,5.5625,0.0
+Cash · outgoing,5.6875,0.0
+Cash · outgoing,5.8125,0.0
+Cash · outgoing,5.9375,0.0
+Cash · outgoing,6.0625,0.0
+Cash · outgoing,6.1875,0.0
+Cash · outgoing,6.3125,0.0
+Cash · outgoing,6.4375,0.0
+Cash · outgoing,6.5625,0.0
+Cash · outgoing,6.6875,0.0
+Cash · outgoing,6.8125,0.0
+Cash · outgoing,6.9375,0.0
+International · incoming,-2.9375,0.0
+International · incoming,-2.8125,0.0
+International · incoming,-2.6875,0.0
+International · incoming,-2.5625,0.0
+International · incoming,-2.4375,0.0
+International · incoming,-2.3125,0.0
+International · incoming,-2.1875,0.0
+International · incoming,-2.0625,0.0
+International · incoming,-1.9375,0.0
+International · incoming,-1.8125,0.0
+International · incoming,-1.6875,0.0
+International · incoming,-1.5625,0.0
+International · incoming,-1.4375,0.0
+International · incoming,-1.3125,0.0
+International · incoming,-1.1875,0.0
+International · incoming,-1.0625,0.0
+International · incoming,-0.9375,0.0
+International · incoming,-0.8125,0.0
+International · incoming,-0.6875,0.0
+International · incoming,-0.5625,0.0
+International · incoming,-0.4375,0.0
+International · incoming,-0.3125,0.012798949829757558
+International · incoming,-0.1875,0.03183328547401239
+International · incoming,-0.0625,0.04627312630758502
+International · incoming,0.0625,0.06465110555031382
+International · incoming,0.1875,0.08532633219838372
+International · incoming,0.3125,0.1053452024449276
+International · incoming,0.4375,0.13422488411207287
+International · incoming,0.5625,0.17820076301431678
+International · incoming,0.6875,0.2156130779013004
+International · incoming,0.8125,0.25794806579972923
+International · incoming,0.9375,0.30815933051647043
+International · incoming,1.0625,0.34261804159658693
+International · incoming,1.1875,0.3787176436805185
+International · incoming,1.3125,0.4059564343438487
+International · incoming,1.4375,0.43844607621938714
+International · incoming,1.5625,0.43877425442015017
+International · incoming,1.6875,0.4144890675636871
+International · incoming,1.8125,0.37346679246831027
+International · incoming,1.9375,0.3760922180744144
+International · incoming,2.0625,0.3573860606309226
+International · incoming,2.1875,0.32489641875538416
+International · incoming,2.3125,0.2999548754973951
+International · incoming,2.4375,0.2648398080157526
+International · incoming,2.5625,0.25433810559133607
+International · incoming,2.6875,0.24482093776920869
+International · incoming,2.8125,0.2198793945112196
+International · incoming,2.9375,0.19165606924560036
+International · incoming,3.0625,0.16835541699142634
+International · incoming,3.1875,0.16080731837387702
+International · incoming,3.3125,0.1309431021044427
+International · incoming,3.4375,0.11420601386552898
+International · incoming,3.5625,0.11289330106247693
+International · incoming,3.6875,0.08860811420601386
+International · incoming,3.8125,0.07285556056938917
+International · incoming,3.9375,0.07055831316404808
+International · incoming,4.0625,0.053821224925134345
+International · incoming,4.1875,0.04430405710300693
+International · incoming,4.3125,0.034786889280879515
+International · incoming,4.4375,0.03183328547401239
+International · incoming,4.5625,0.03052057267096033
+International · incoming,4.6875,0.021659761250358945
+International · incoming,4.8125,0.021003404848832917
+International · incoming,4.9375,0.019362513845017845
+International · incoming,5.0625,0.013127128030520572
+International · incoming,5.1875,0.008532633219838373
+International · incoming,5.3125,0.006891742216023301
+International · incoming,5.4375,0.008860811420601387
+International · incoming,5.5625,0.004266316609919186
+International · incoming,5.6875,0.0045944948106822
+International · incoming,5.8125,0.002953603806867129
+International · incoming,5.9375,0.0013127128030520573
+International · incoming,6.0625,0.0013127128030520573
+International · incoming,6.1875,0.0013127128030520573
+International · incoming,6.3125,0.00032817820076301433
+International · incoming,6.4375,0.003281782007630143
+International · incoming,6.5625,0.0
+International · incoming,6.6875,0.0
+International · incoming,6.8125,0.0
+International · incoming,6.9375,0.0
+International · outgoing,-2.9375,0.0
+International · outgoing,-2.8125,0.0
+International · outgoing,-2.6875,0.0
+International · outgoing,-2.5625,0.0
+International · outgoing,-2.4375,0.0
+International · outgoing,-2.3125,0.0
+International · outgoing,-2.1875,0.0
+International · outgoing,-2.0625,0.0
+International · outgoing,-1.9375,0.0
+International · outgoing,-1.8125,0.0
+International · outgoing,-1.6875,0.0
+International · outgoing,-1.5625,0.0
+International · outgoing,-1.4375,0.0
+International · outgoing,-1.3125,0.0
+International · outgoing,-1.1875,0.0
+International · outgoing,-1.0625,0.0
+International · outgoing,-0.9375,0.0
+International · outgoing,-0.8125,0.0
+International · outgoing,-0.6875,0.0
+International · outgoing,-0.5625,0.0075107296137339056
+International · outgoing,-0.4375,0.011802575107296138
+International · outgoing,-0.3125,0.017167381974248927
+International · outgoing,-0.1875,0.02682403433476395
+International · outgoing,-0.0625,0.043991416309012876
+International · outgoing,0.0625,0.0611587982832618
+International · outgoing,0.1875,0.07188841201716738
+International · outgoing,0.3125,0.10085836909871244
+International · outgoing,0.4375,0.11802575107296137
+International · outgoing,0.5625,0.1351931330472103
+International · outgoing,0.6875,0.1813304721030043
+International · outgoing,0.8125,0.20815450643776823
+International · outgoing,0.9375,0.23819742489270387
+International · outgoing,1.0625,0.26931330472103004
+International · outgoing,1.1875,0.2832618025751073
+International · outgoing,1.3125,0.31759656652360513
+International · outgoing,1.4375,0.33047210300429186
+International · outgoing,1.5625,0.3293991416309013
+International · outgoing,1.6875,0.36587982832618027
+International · outgoing,1.8125,0.34227467811158796
+International · outgoing,1.9375,0.361587982832618
+International · outgoing,2.0625,0.33798283261802575
+International · outgoing,2.1875,0.3251072961373391
+International · outgoing,2.3125,0.3240343347639485
+International · outgoing,2.4375,0.2982832618025751
+International · outgoing,2.5625,0.3186695278969957
+International · outgoing,2.6875,0.27467811158798283
+International · outgoing,2.8125,0.26180257510729615
+International · outgoing,2.9375,0.2510729613733906
+International · outgoing,3.0625,0.19206008583690987
+International · outgoing,3.1875,0.18025751072961374
+International · outgoing,3.3125,0.18025751072961374
+International · outgoing,3.4375,0.1813304721030043
+International · outgoing,3.5625,0.1405579399141631
+International · outgoing,3.6875,0.12446351931330472
+International · outgoing,3.8125,0.1298283261802575
+International · outgoing,3.9375,0.09549356223175966
+International · outgoing,4.0625,0.09334763948497854
+International · outgoing,4.1875,0.08369098712446352
+International · outgoing,4.3125,0.06974248927038626
+International · outgoing,4.4375,0.0611587982832618
+International · outgoing,4.5625,0.0536480686695279
+International · outgoing,4.6875,0.03862660944206009
+International · outgoing,4.8125,0.027896995708154508
+International · outgoing,4.9375,0.02682403433476395
+International · outgoing,5.0625,0.02145922746781116
+International · outgoing,5.1875,0.0203862660944206
+International · outgoing,5.3125,0.017167381974248927
+International · outgoing,5.4375,0.006437768240343348
+International · outgoing,5.5625,0.01072961373390558
+International · outgoing,5.6875,0.003218884120171674
+International · outgoing,5.8125,0.00536480686695279
+International · outgoing,5.9375,0.003218884120171674
+International · outgoing,6.0625,0.006437768240343348
+International · outgoing,6.1875,0.001072961373390558
+International · outgoing,6.3125,0.002145922746781116
+International · outgoing,6.4375,0.009656652360515022
+International · outgoing,6.5625,0.0
+International · outgoing,6.6875,0.0
+International · outgoing,6.8125,0.0
+International · outgoing,6.9375,0.0

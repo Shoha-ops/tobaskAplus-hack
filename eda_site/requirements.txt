@@ -1,0 +1,4 @@
+# pinned: the zero-latency navigation relies on Streamlit 1.64 DOM/test ids and st.html(unsafe_allow_javascript)
+streamlit==1.64.0
+pandas>=2.0
+plotly==7.1.0

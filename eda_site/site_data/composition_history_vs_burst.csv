@@ -1,0 +1,17 @@
+cross,segment,share
+Bank transfer · incoming,Final 5 min before alert,0.2374829456831317
+Bank transfer · outgoing,Final 5 min before alert,0.08495492593812314
+Card · incoming,Final 5 min before alert,0.4569905509132428
+Card · outgoing,Final 5 min before alert,0.14694397498579562
+Cash · incoming,Final 5 min before alert,0.052105687908715524
+Cash · outgoing,Final 5 min before alert,0.015825682263148563
+International · incoming,Final 5 min before alert,0.004409694451782877
+International · outgoing,Final 5 min before alert,0.0012865378560597562
+Bank transfer · incoming,History,0.2974643268230682
+Bank transfer · outgoing,History,0.1029220280226144
+Card · incoming,History,0.408747327318638
+Card · outgoing,History,0.12350223783402592
+Cash · incoming,History,0.047462967075300656
+Cash · outgoing,History,0.01544347124490891
+International · incoming,History,0.0034094704023314936
+International · outgoing,History,0.0010481712791123939

@@ -1,0 +1,247 @@
+{
+ "models": [
+  {
+   "model": "CatBoost (depth 4)",
+   "auc_mean": 0.6491778692813622,
+   "auc_std": 0.0014391990366961
+  },
+  {
+   "model": "Hybrid: LightGBM boosted from logistic-regression init",
+   "auc_mean": 0.6476926842256726,
+   "auc_std": 0.0013099210941931222
+  },
+  {
+   "model": "CatBoost (depth 6)",
+   "auc_mean": 0.6474387214361342,
+   "auc_std": 0.0014576199333333295
+  },
+  {
+   "model": "LightGBM (Optuna-tuned)",
+   "auc_mean": 0.6446831187840244,
+   "auc_std": 0.0007256774421655147
+  },
+  {
+   "model": "Logistic regression on instrument levels",
+   "auc_mean": 0.6412616975618269,
+   "auc_std": 0.0008831562661228085
+  },
+  {
+   "model": "Final ensemble (equal-weight rank average, 3 seeds)",
+   "auc_mean": 0.6533427287372954,
+   "auc_std": null
+  }
+ ],
+ "metric_path": [
+  {
+   "step": "Baseline aggregates (59 features)",
+   "auc": 0.6074,
+   "note": "LightGBM, repeated CV"
+  },
+  {
+   "step": "+ distribution shape (49)",
+   "auc": 0.6093,
+   "note": "LightGBM, repeated CV"
+  },
+  {
+   "step": "+ model zoo & ensemble",
+   "auc": 0.6148,
+   "note": "4-model rank average"
+  },
+  {
+   "step": "+ instrument × direction statistics (130)",
+   "auc": 0.6488,
+   "note": "the key EDA insight"
+  },
+  {
+   "step": "honest early stopping + tuning + contrast + linear/hybrid",
+   "auc": 0.6533,
+   "note": "final honest ensemble, after audit"
+  }
+ ],
+ "feature_groups": [
+  {
+   "group": "Base aggregates",
+   "n": 59,
+   "what": "amount stats (all / incoming / outgoing), type shares & counts, balance, activity, alert date"
+  },
+  {
+   "group": "Distribution shape",
+   "n": 49,
+   "what": "kurtosis, Bowley skew, inter-quantile ranges, tail ratios"
+  },
+  {
+   "group": "Instrument × direction statistics",
+   "n": 130,
+   "what": "count/mean/std/quantiles of amounts for each of 8 instrument×direction combinations"
+  },
+  {
+   "group": "Explicit contrast",
+   "n": 13,
+   "what": "cash-in + card-out − bank-in − bank-out at mean / median / q25 / q75"
+  },
+  {
+   "group": "Linear-model inputs",
+   "n": 76,
+   "what": "instrument levels + customer-scale / skew decomposition + log counts"
+  }
+ ],
+ "failed": [
+  {
+   "idea": "Time windows 7/30/90d, bursts, night activity, inter-arrival gaps",
+   "delta": -0.0006,
+   "why": "timestamps are uniform; no temporal signal"
+  },
+  {
+   "idea": "Time features per instrument",
+   "delta": -0.0017,
+   "why": "same"
+  },
+  {
+   "idea": "Distribution shape per instrument",
+   "delta": -0.0015,
+   "why": "signal is in location, not shape"
+  },
+  {
+   "idea": "Amount histogram (36 bins)",
+   "delta": -0.0012,
+   "why": "moments already describe it"
+  },
+  {
+   "idea": "148 pairwise ratios of instrument means",
+   "delta": -0.0002,
+   "why": "trees derive ratios themselves"
+  },
+  {
+   "idea": "Transaction-level (multiple-instance) model",
+   "delta": null,
+   "why": "alone 0.556; hurts in blend — a single transaction cannot see the cross-instrument ratio"
+  },
+  {
+   "idea": "Empirical-Bayes shrinkage of noisy levels",
+   "delta": 0.0016,
+   "why": "below threshold; shrinking toward other instruments erases the contrast"
+  },
+  {
+   "idea": "Incoming → outgoing chains (5m/1h/6h/24h, amount similarity)",
+   "delta": -0.00339,
+   "why": "instrument order is random given composition"
+  },
+  {
+   "idea": "Incoming → outgoing only",
+   "delta": -0.00129,
+   "why": "same"
+  },
+  {
+   "idea": "Instrument sequence: stickiness, runs, transition lift",
+   "delta": -0.00085,
+   "why": "stickiness ≈ 1.0 (random order)"
+  },
+  {
+   "idea": "Structuring: near-equal amounts (±tol)",
+   "delta": 0.00027,
+   "why": "amounts continuous, no repeats; proxy for density"
+  },
+  {
+   "idea": "Instrument levels after removing the common trend (added)",
+   "delta": 0.00046,
+   "why": "trend identical in both classes"
+  },
+  {
+   "idea": "Detrended linear model inside the ensemble",
+   "delta": 0.00039,
+   "why": "+0.0015 for the linear model alone, absorbed by the ensemble"
+  },
+  {
+   "idea": "Replace all amounts by detrended amounts",
+   "delta": -0.0113,
+   "why": "all of the loss comes from min / lower-quantile features: raw minima sit in late & burst transactions (legitimate pre-alert info)"
+  }
+ ],
+ "audit": {
+  "post_date_note": "840 train / 51 test transactions are dated later than 00:00 of signal_sanasi (21 / 2 alerts). signal_sanasi has no time; for these alerts the whole 180-day window is shifted by one day and the pre-alert burst ends just before 24:00 of the same date — pre-alert history, kept. signal_sanasi is stored as a calendar date without time, so the alert moment is inferred from the data structure",
+  "permutation_auc_range": [
+   0.479,
+   0.509
+  ],
+  "adversarial_auc": 0.49250189285714285,
+  "contrast_half_A": "Bank in −0.48, Cash in +0.44, Bank out −0.40, Card out +0.25",
+  "contrast_half_B": "Bank out −0.40, Cash in +0.38, Bank in −0.36, Card out +0.32",
+  "splits": [
+   {
+    "split": 31337,
+    "final_gap": -0.0122,
+    "control_gap": -0.0018
+   },
+   {
+    "split": 1,
+    "final_gap": 0.0203,
+    "control_gap": 0.0176
+   },
+   {
+    "split": 2,
+    "final_gap": 0.0251,
+    "control_gap": 0.0183
+   },
+   {
+    "split": 3,
+    "final_gap": 0.0031,
+    "control_gap": 0.026
+   },
+   {
+    "split": 4,
+    "final_gap": 0.0046,
+    "control_gap": 0.0141
+   },
+   {
+    "split": 5,
+    "final_gap": 0.0192,
+    "control_gap": 0.0196
+   },
+   {
+    "split": 6,
+    "final_gap": 0.015,
+    "control_gap": 0.016
+   },
+   {
+    "split": 7,
+    "final_gap": -0.0108,
+    "control_gap": -0.0177
+   }
+  ],
+  "selection_bias": 0.0035,
+  "selection_bias_se": 0.0036,
+  "residual_features_above_noise": 1,
+  "residual_features_tested": 371,
+  "residual_expected_by_chance": 17,
+  "stability_single_seed_mean": 0.6520208814646071,
+  "stability_single_seed_std": 0.001437745810914472,
+  "stability_rank_spearman": 0.9955534709886191,
+  "stability_top1000_overlap": 0.9424999999999997,
+  "leave_one_out_max_drop": 0.0010583994283864806,
+  "date_auc_max": 0.508
+ },
+ "ceiling": {
+  "fraction": [
+   0.125,
+   0.25,
+   0.5,
+   0.75,
+   1.0
+  ],
+  "auc": [
+   0.5895,
+   0.6069,
+   0.6252,
+   0.631,
+   0.6398
+  ],
+  "limit_low": 0.652,
+  "limit_high": 0.657
+ },
+ "junk_feature_ranks": [
+  42,
+  44,
+  71
+ ],
+ "junk_total": 111
+}

@@ -1,0 +1,21 @@
+[theme]
+base = "dark"
+primaryColor = "#00F2FE"
+backgroundColor = "#0B0E13"
+secondaryBackgroundColor = "#11161D"
+textColor = "#E8EDF2"
+font = "sans serif"
+
+[server]
+# fewer bytes per message (charts are JSON) — noticeable on slow / mobile networks
+enableWebsocketCompression = true
+# the deployed site never edits its own code: no file watcher, no reload checks
+fileWatcherType = "none"
+runOnSave = false
+
+[runner]
+magicEnabled = false
+fastReruns = true
+
+[browser]
+gatherUsageStats = false

@@ -1,0 +1,23 @@
+# Competition data & raw archives (do not upload large files to GitHub)
+data/
+archive/
+_eda_site_leftovers/
+*.parquet
+cloudflared.exe
+eda_site_v2.zip
+.claude/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.ipynb_checkpoints/
+.pytest_cache/
+catboost_info/
+
+# Environment
+.env
+venv/
+.venv/
+env/

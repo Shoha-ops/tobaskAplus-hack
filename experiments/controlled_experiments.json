@@ -1,0 +1,10 @@
+{
+ "refit_full_tr": {"scheme_A": "train on tr2 (64%), early stop on es (16%)", "scheme_B": "best_iteration from tr2/es, refit on full tr (80%) with fixed iterations",
+   "ensemble_A": 0.65334, "ensemble_B": 0.65299, "delta": -0.00035, "delta_by_seed": [0.00132, -0.00032, -0.00071],
+   "bootstrap_95ci": [-0.00129, 0.00052], "share_delta_gt_0": 0.208, "test_spearman_A_vs_B": 0.9993,
+   "per_model_delta_mean": {"lgbm": 0.00013, "hybrid": 0.00128, "cat_d4": 0.00026, "cat_d6": 0.00046, "linear": 0.0},
+   "decision": "keep A (no stable gain >= 0.001)"},
+ "p5_detrended_linear": {"ensemble_raw": 0.65334, "ensemble_detrended_linear": 0.65371, "delta": 0.00037,
+   "delta_by_seed": [0.00045, 0.00037, 0.00034], "bootstrap_95ci": [-0.00011, 0.00084], "share_delta_gt_0": 0.93,
+   "decision": "keep current (CI overlaps 0, below 0.001 threshold)"}
+}

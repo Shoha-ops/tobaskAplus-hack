@@ -1,0 +1,612 @@
+{
+ "total_alerts": 14000,
+ "total_esc": 2405,
+ "points": [
+  {
+   "p": 0,
+   "gains": 0.0,
+   "esc_caught": 0,
+   "alerts_checked": 0
+  },
+  {
+   "p": 1,
+   "gains": 0.0179,
+   "esc_caught": 43,
+   "alerts_checked": 140
+  },
+  {
+   "p": 2,
+   "gains": 0.0383,
+   "esc_caught": 92,
+   "alerts_checked": 280
+  },
+  {
+   "p": 3,
+   "gains": 0.0545,
+   "esc_caught": 131,
+   "alerts_checked": 420
+  },
+  {
+   "p": 4,
+   "gains": 0.074,
+   "esc_caught": 178,
+   "alerts_checked": 560
+  },
+  {
+   "p": 5,
+   "gains": 0.0898,
+   "esc_caught": 216,
+   "alerts_checked": 700
+  },
+  {
+   "p": 6,
+   "gains": 0.104,
+   "esc_caught": 250,
+   "alerts_checked": 840
+  },
+  {
+   "p": 7,
+   "gains": 0.1185,
+   "esc_caught": 285,
+   "alerts_checked": 980
+  },
+  {
+   "p": 8,
+   "gains": 0.1385,
+   "esc_caught": 333,
+   "alerts_checked": 1120
+  },
+  {
+   "p": 9,
+   "gains": 0.1555,
+   "esc_caught": 374,
+   "alerts_checked": 1260
+  },
+  {
+   "p": 10,
+   "gains": 0.1721,
+   "esc_caught": 414,
+   "alerts_checked": 1400
+  },
+  {
+   "p": 11,
+   "gains": 0.1913,
+   "esc_caught": 460,
+   "alerts_checked": 1540
+  },
+  {
+   "p": 12,
+   "gains": 0.2054,
+   "esc_caught": 494,
+   "alerts_checked": 1680
+  },
+  {
+   "p": 13,
+   "gains": 0.2249,
+   "esc_caught": 541,
+   "alerts_checked": 1820
+  },
+  {
+   "p": 14,
+   "gains": 0.2378,
+   "esc_caught": 572,
+   "alerts_checked": 1960
+  },
+  {
+   "p": 15,
+   "gains": 0.2495,
+   "esc_caught": 600,
+   "alerts_checked": 2100
+  },
+  {
+   "p": 16,
+   "gains": 0.2644,
+   "esc_caught": 636,
+   "alerts_checked": 2240
+  },
+  {
+   "p": 17,
+   "gains": 0.2823,
+   "esc_caught": 679,
+   "alerts_checked": 2380
+  },
+  {
+   "p": 18,
+   "gains": 0.2948,
+   "esc_caught": 709,
+   "alerts_checked": 2520
+  },
+  {
+   "p": 19,
+   "gains": 0.3056,
+   "esc_caught": 735,
+   "alerts_checked": 2660
+  },
+  {
+   "p": 20,
+   "gains": 0.3193,
+   "esc_caught": 768,
+   "alerts_checked": 2800
+  },
+  {
+   "p": 21,
+   "gains": 0.3322,
+   "esc_caught": 799,
+   "alerts_checked": 2940
+  },
+  {
+   "p": 22,
+   "gains": 0.3464,
+   "esc_caught": 833,
+   "alerts_checked": 3080
+  },
+  {
+   "p": 23,
+   "gains": 0.3597,
+   "esc_caught": 865,
+   "alerts_checked": 3220
+  },
+  {
+   "p": 24,
+   "gains": 0.3742,
+   "esc_caught": 900,
+   "alerts_checked": 3360
+  },
+  {
+   "p": 25,
+   "gains": 0.3892,
+   "esc_caught": 936,
+   "alerts_checked": 3500
+  },
+  {
+   "p": 26,
+   "gains": 0.4029,
+   "esc_caught": 969,
+   "alerts_checked": 3640
+  },
+  {
+   "p": 27,
+   "gains": 0.4154,
+   "esc_caught": 999,
+   "alerts_checked": 3780
+  },
+  {
+   "p": 28,
+   "gains": 0.427,
+   "esc_caught": 1027,
+   "alerts_checked": 3920
+  },
+  {
+   "p": 29,
+   "gains": 0.4399,
+   "esc_caught": 1058,
+   "alerts_checked": 4060
+  },
+  {
+   "p": 30,
+   "gains": 0.4511,
+   "esc_caught": 1085,
+   "alerts_checked": 4200
+  },
+  {
+   "p": 31,
+   "gains": 0.464,
+   "esc_caught": 1116,
+   "alerts_checked": 4340
+  },
+  {
+   "p": 32,
+   "gains": 0.4757,
+   "esc_caught": 1144,
+   "alerts_checked": 4480
+  },
+  {
+   "p": 33,
+   "gains": 0.4881,
+   "esc_caught": 1174,
+   "alerts_checked": 4620
+  },
+  {
+   "p": 34,
+   "gains": 0.5015,
+   "esc_caught": 1206,
+   "alerts_checked": 4760
+  },
+  {
+   "p": 35,
+   "gains": 0.5127,
+   "esc_caught": 1233,
+   "alerts_checked": 4900
+  },
+  {
+   "p": 36,
+   "gains": 0.5235,
+   "esc_caught": 1259,
+   "alerts_checked": 5040
+  },
+  {
+   "p": 37,
+   "gains": 0.5335,
+   "esc_caught": 1283,
+   "alerts_checked": 5180
+  },
+  {
+   "p": 38,
+   "gains": 0.548,
+   "esc_caught": 1318,
+   "alerts_checked": 5320
+  },
+  {
+   "p": 39,
+   "gains": 0.5572,
+   "esc_caught": 1340,
+   "alerts_checked": 5460
+  },
+  {
+   "p": 40,
+   "gains": 0.568,
+   "esc_caught": 1366,
+   "alerts_checked": 5600
+  },
+  {
+   "p": 41,
+   "gains": 0.5792,
+   "esc_caught": 1393,
+   "alerts_checked": 5740
+  },
+  {
+   "p": 42,
+   "gains": 0.5875,
+   "esc_caught": 1413,
+   "alerts_checked": 5880
+  },
+  {
+   "p": 43,
+   "gains": 0.5992,
+   "esc_caught": 1441,
+   "alerts_checked": 6020
+  },
+  {
+   "p": 44,
+   "gains": 0.6112,
+   "esc_caught": 1470,
+   "alerts_checked": 6160
+  },
+  {
+   "p": 45,
+   "gains": 0.6175,
+   "esc_caught": 1485,
+   "alerts_checked": 6300
+  },
+  {
+   "p": 46,
+   "gains": 0.6279,
+   "esc_caught": 1510,
+   "alerts_checked": 6440
+  },
+  {
+   "p": 47,
+   "gains": 0.6395,
+   "esc_caught": 1538,
+   "alerts_checked": 6580
+  },
+  {
+   "p": 48,
+   "gains": 0.6466,
+   "esc_caught": 1555,
+   "alerts_checked": 6720
+  },
+  {
+   "p": 49,
+   "gains": 0.6578,
+   "esc_caught": 1582,
+   "alerts_checked": 6860
+  },
+  {
+   "p": 50,
+   "gains": 0.6644,
+   "esc_caught": 1598,
+   "alerts_checked": 7000
+  },
+  {
+   "p": 51,
+   "gains": 0.674,
+   "esc_caught": 1621,
+   "alerts_checked": 7140
+  },
+  {
+   "p": 52,
+   "gains": 0.6815,
+   "esc_caught": 1639,
+   "alerts_checked": 7280
+  },
+  {
+   "p": 53,
+   "gains": 0.6894,
+   "esc_caught": 1658,
+   "alerts_checked": 7420
+  },
+  {
+   "p": 54,
+   "gains": 0.6969,
+   "esc_caught": 1676,
+   "alerts_checked": 7560
+  },
+  {
+   "p": 55,
+   "gains": 0.7052,
+   "esc_caught": 1696,
+   "alerts_checked": 7700
+  },
+  {
+   "p": 56,
+   "gains": 0.7139,
+   "esc_caught": 1717,
+   "alerts_checked": 7840
+  },
+  {
+   "p": 57,
+   "gains": 0.7227,
+   "esc_caught": 1738,
+   "alerts_checked": 7980
+  },
+  {
+   "p": 58,
+   "gains": 0.7301,
+   "esc_caught": 1756,
+   "alerts_checked": 8120
+  },
+  {
+   "p": 59,
+   "gains": 0.7397,
+   "esc_caught": 1779,
+   "alerts_checked": 8260
+  },
+  {
+   "p": 60,
+   "gains": 0.748,
+   "esc_caught": 1799,
+   "alerts_checked": 8400
+  },
+  {
+   "p": 61,
+   "gains": 0.7568,
+   "esc_caught": 1820,
+   "alerts_checked": 8540
+  },
+  {
+   "p": 62,
+   "gains": 0.7638,
+   "esc_caught": 1837,
+   "alerts_checked": 8680
+  },
+  {
+   "p": 63,
+   "gains": 0.7763,
+   "esc_caught": 1867,
+   "alerts_checked": 8820
+  },
+  {
+   "p": 64,
+   "gains": 0.7834,
+   "esc_caught": 1884,
+   "alerts_checked": 8960
+  },
+  {
+   "p": 65,
+   "gains": 0.7892,
+   "esc_caught": 1898,
+   "alerts_checked": 9100
+  },
+  {
+   "p": 66,
+   "gains": 0.7996,
+   "esc_caught": 1923,
+   "alerts_checked": 9240
+  },
+  {
+   "p": 67,
+   "gains": 0.8054,
+   "esc_caught": 1937,
+   "alerts_checked": 9380
+  },
+  {
+   "p": 68,
+   "gains": 0.8141,
+   "esc_caught": 1958,
+   "alerts_checked": 9520
+  },
+  {
+   "p": 69,
+   "gains": 0.8187,
+   "esc_caught": 1969,
+   "alerts_checked": 9660
+  },
+  {
+   "p": 70,
+   "gains": 0.8291,
+   "esc_caught": 1994,
+   "alerts_checked": 9800
+  },
+  {
+   "p": 71,
+   "gains": 0.8341,
+   "esc_caught": 2006,
+   "alerts_checked": 9940
+  },
+  {
+   "p": 72,
+   "gains": 0.8395,
+   "esc_caught": 2019,
+   "alerts_checked": 10080
+  },
+  {
+   "p": 73,
+   "gains": 0.8457,
+   "esc_caught": 2034,
+   "alerts_checked": 10220
+  },
+  {
+   "p": 74,
+   "gains": 0.8545,
+   "esc_caught": 2055,
+   "alerts_checked": 10360
+  },
+  {
+   "p": 75,
+   "gains": 0.8603,
+   "esc_caught": 2069,
+   "alerts_checked": 10500
+  },
+  {
+   "p": 76,
+   "gains": 0.8653,
+   "esc_caught": 2081,
+   "alerts_checked": 10640
+  },
+  {
+   "p": 77,
+   "gains": 0.8711,
+   "esc_caught": 2095,
+   "alerts_checked": 10780
+  },
+  {
+   "p": 78,
+   "gains": 0.8778,
+   "esc_caught": 2111,
+   "alerts_checked": 10920
+  },
+  {
+   "p": 79,
+   "gains": 0.8865,
+   "esc_caught": 2132,
+   "alerts_checked": 11060
+  },
+  {
+   "p": 80,
+   "gains": 0.8919,
+   "esc_caught": 2145,
+   "alerts_checked": 11200
+  },
+  {
+   "p": 81,
+   "gains": 0.8985,
+   "esc_caught": 2161,
+   "alerts_checked": 11340
+  },
+  {
+   "p": 82,
+   "gains": 0.9052,
+   "esc_caught": 2177,
+   "alerts_checked": 11480
+  },
+  {
+   "p": 83,
+   "gains": 0.911,
+   "esc_caught": 2191,
+   "alerts_checked": 11620
+  },
+  {
+   "p": 84,
+   "gains": 0.9189,
+   "esc_caught": 2210,
+   "alerts_checked": 11760
+  },
+  {
+   "p": 85,
+   "gains": 0.9239,
+   "esc_caught": 2222,
+   "alerts_checked": 11900
+  },
+  {
+   "p": 86,
+   "gains": 0.9277,
+   "esc_caught": 2231,
+   "alerts_checked": 12040
+  },
+  {
+   "p": 87,
+   "gains": 0.9343,
+   "esc_caught": 2247,
+   "alerts_checked": 12180
+  },
+  {
+   "p": 88,
+   "gains": 0.9418,
+   "esc_caught": 2265,
+   "alerts_checked": 12320
+  },
+  {
+   "p": 89,
+   "gains": 0.9443,
+   "esc_caught": 2271,
+   "alerts_checked": 12460
+  },
+  {
+   "p": 90,
+   "gains": 0.9522,
+   "esc_caught": 2290,
+   "alerts_checked": 12600
+  },
+  {
+   "p": 91,
+   "gains": 0.9584,
+   "esc_caught": 2305,
+   "alerts_checked": 12740
+  },
+  {
+   "p": 92,
+   "gains": 0.9634,
+   "esc_caught": 2317,
+   "alerts_checked": 12880
+  },
+  {
+   "p": 93,
+   "gains": 0.9655,
+   "esc_caught": 2322,
+   "alerts_checked": 13020
+  },
+  {
+   "p": 94,
+   "gains": 0.9696,
+   "esc_caught": 2332,
+   "alerts_checked": 13160
+  },
+  {
+   "p": 95,
+   "gains": 0.9755,
+   "esc_caught": 2346,
+   "alerts_checked": 13300
+  },
+  {
+   "p": 96,
+   "gains": 0.9817,
+   "esc_caught": 2361,
+   "alerts_checked": 13440
+  },
+  {
+   "p": 97,
+   "gains": 0.9871,
+   "esc_caught": 2374,
+   "alerts_checked": 13580
+  },
+  {
+   "p": 98,
+   "gains": 0.9913,
+   "esc_caught": 2384,
+   "alerts_checked": 13720
+  },
+  {
+   "p": 99,
+   "gains": 0.995,
+   "esc_caught": 2393,
+   "alerts_checked": 13860
+  },
+  {
+   "p": 100,
+   "gains": 1.0,
+   "esc_caught": 2405,
+   "alerts_checked": 14000
+  }
+ ]
+}

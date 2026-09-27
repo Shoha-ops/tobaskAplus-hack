@@ -1,0 +1,9 @@
+type,direction,share
+Bank transfer,Incoming (kirim),0.29272047034895643
+Bank transfer,Outgoing (chiqim),0.10150103117451428
+Card,Incoming (kirim),0.4125628267991745
+Card,Outgoing (chiqim),0.12535621709289643
+Cash,Incoming (kirim),0.04783015437350084
+Cash,Outgoing (chiqim),0.015473699862171373
+International,Incoming (kirim),0.0034885769390996676
+International,Outgoing (chiqim),0.0010670234096864717
