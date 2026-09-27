@@ -30,7 +30,7 @@ html, body, .stApp, .stMarkdown, p, li, td, th, input, button { font-family: var
 body, .stApp { background: var(--bg) !important; color: var(--ink); -webkit-font-smoothing: antialiased; }
 [data-testid="stHeader"], [data-testid="stToolbar"], [data-testid="stDecoration"],
 [data-testid="stSidebar"], [data-testid="stSidebarCollapsedControl"], [data-testid="stExpandSidebarButton"],
-[data-testid="stHeaderActionElements"] { display: none !important; }
+[data-testid="stHeaderActionElements"], [data-testid="manage-app-button"], footer, #MainMenu { display: none !important; }
 ::selection { background: #00f2fe40; }
 .msr { font-family: 'Material Symbols Rounded'; font-weight: normal; font-style: normal; font-size: 20px; line-height: 1;
   letter-spacing: normal; text-transform: none; display: inline-block; white-space: nowrap; direction: ltr; flex: none;
