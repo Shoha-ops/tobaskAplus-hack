@@ -30,7 +30,17 @@ html, body, .stApp, .stMarkdown, p, li, td, th, input, button { font-family: var
 body, .stApp { background: var(--bg) !important; color: var(--ink); -webkit-font-smoothing: antialiased; }
 [data-testid="stHeader"], [data-testid="stToolbar"], [data-testid="stDecoration"],
 [data-testid="stSidebar"], [data-testid="stSidebarCollapsedControl"], [data-testid="stExpandSidebarButton"],
-[data-testid="stHeaderActionElements"], [data-testid="manage-app-button"], footer, #MainMenu { display: none !important; }
+[data-testid="stHeaderActionElements"], [data-testid="manage-app-button"], footer, #MainMenu,
+[class*="viewerBadge"], [class*="viewer-badge"], [class*="StatusWidget"],
+.viewerBadge_container__1QSob, .viewerBadge_link__1S137, a[href*="streamlit.io/cloud"],
+div:has(> a[href*="streamlit.io/cloud"]), div:has(> a[href*="streamlit.io"]) {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  height: 0 !important;
+  width: 0 !important;
+}
 ::selection { background: #00f2fe40; }
 .msr { font-family: 'Material Symbols Rounded'; font-weight: normal; font-style: normal; font-size: 20px; line-height: 1;
   letter-spacing: normal; text-transform: none; display: inline-block; white-space: nowrap; direction: ltr; flex: none;
