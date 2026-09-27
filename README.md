@@ -6,16 +6,6 @@
 
 ---
 
-## Executive Summary & Final Result
-
-- **Model Status:** **FROZEN** (Final submission generated and verified)
-- **Honest OOF ROC-AUC:** **`0.65334`** (3 seeds × 5 Stratified Folds, leak-free early stopping)
-- **Final Submission Artifact:** [`submissions/team_3B832E89.csv`](file:///d:/hack/submissions/team_3B832E89.csv)
-  - MD5 Checksum: `a0d1cf0afc9be6c039ad19590cfd26c9`
-  - Validated: 6,000 predictions, matching `test_signals` ID order, values strictly in $[0, 1]$, no nulls.
-- **Reproducibility:** 100% byte-identical reproduction guaranteed via both:
-  - Interactive Notebook: [`notebooks/solution.ipynb`](file:///d:/hack/notebooks/solution.ipynb) (Run All, ~7 min on CPU)
-  - Standalone Pipeline: [`train_final.py`](file:///d:/hack/train_final.py) (`python3 train_final.py`)
 
 ### Model Leaderboard (Honest CV)
 
@@ -90,18 +80,6 @@ Systematic experimentation confirmed that temporal dynamics and sequence order i
 
 ---
 
-## Interactive EDA Application
-
-The project includes an interactive web platform built in [`eda_site/`](file:///d:/hack/eda_site):
-- **Investigation Case File:** 7 sequential steps walking through alert distributions, target stability, payment dynamics, model evolution, and theoretical ceilings.
-- **Alert Inspector:** Deep-dive examination tool for 30 representative alert cases with transaction scrubbing and dynamic quantile recalculation.
-- **Analyst Workload Simulator:** Interactive gains curve balancing investigation capacity against escalation recall.
-
-To run the site locally:
-```bash
-streamlit run eda_site/app.py
-```
-
 ---
 
 ## Repository Structure
@@ -139,21 +117,3 @@ streamlit run eda_site/app.py
 
 ---
 
-## Quick Start & Verification
-
-### 1. Environment Setup
-```bash
-# Clone repository
-git clone https://github.com/Shoha-ops/tobaskAplus-hack.git
-cd tobaskAplus-hack
-
-# Install dependencies (Python 3.11+ recommended)
-pip install -r requirements.txt
-```
-
-### 2. Verify Final Model Training & Submission
-Ensure the competition dataset is placed under `data/`:
-```bash
-python3 train_final.py
-```
-This script runs the full 5-fold × 3-seed pipeline, performs validation integrity assertions, and verifies that the output matches [`submissions/team_3B832E89.csv`](file:///d:/hack/submissions/team_3B832E89.csv) byte-for-byte.
